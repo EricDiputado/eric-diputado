@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/eric-diputado/precache-manifest.e2530db067286b36437101e981cc1c5a.js"
+  "/eric-diputado/precache-manifest.972c22442060ef28253e8e480ccbd762.js"
 );
 
 self.addEventListener('message', (event) => {

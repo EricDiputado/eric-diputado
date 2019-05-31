@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/eric-diputado/static/css/main.2cce8147.chunk.css",
-    "main.js": "/eric-diputado/static/js/main.a3b8b9df.chunk.js",
-    "main.js.map": "/eric-diputado/static/js/main.a3b8b9df.chunk.js.map",
+    "main.js": "/eric-diputado/static/js/main.903d5f75.chunk.js",
+    "main.js.map": "/eric-diputado/static/js/main.903d5f75.chunk.js.map",
     "runtime~main.js": "/eric-diputado/static/js/runtime~main.bc65129d.js",
     "runtime~main.js.map": "/eric-diputado/static/js/runtime~main.bc65129d.js.map",
-    "static/js/2.b41502e9.chunk.js": "/eric-diputado/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/eric-diputado/static/js/2.b41502e9.chunk.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/eric-diputado/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.b0f4c8b7.chunk.js": "/eric-diputado/static/js/2.b0f4c8b7.chunk.js",
+    "static/js/2.b0f4c8b7.chunk.js.map": "/eric-diputado/static/js/2.b0f4c8b7.chunk.js.map",
     "index.html": "/eric-diputado/index.html",
-    "precache-manifest.e2530db067286b36437101e981cc1c5a.js": "/eric-diputado/precache-manifest.e2530db067286b36437101e981cc1c5a.js",
+    "precache-manifest.972c22442060ef28253e8e480ccbd762.js": "/eric-diputado/precache-manifest.972c22442060ef28253e8e480ccbd762.js",
     "service-worker.js": "/eric-diputado/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/eric-diputado/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/eric-diputado/static/media/logo.5d5d9eef.svg"
+    "static/css/2.22a7d4ef.chunk.css.map": "/eric-diputado/static/css/2.22a7d4ef.chunk.css.map"
   }
 }
