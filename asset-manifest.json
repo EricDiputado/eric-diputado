@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/eric-diputado/static/css/main.2cce8147.chunk.css",
+    "main.js": "/eric-diputado/static/js/main.a3b8b9df.chunk.js",
+    "main.js.map": "/eric-diputado/static/js/main.a3b8b9df.chunk.js.map",
+    "runtime~main.js": "/eric-diputado/static/js/runtime~main.bc65129d.js",
+    "runtime~main.js.map": "/eric-diputado/static/js/runtime~main.bc65129d.js.map",
+    "static/js/2.b41502e9.chunk.js": "/eric-diputado/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/eric-diputado/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/eric-diputado/index.html",
+    "precache-manifest.e2530db067286b36437101e981cc1c5a.js": "/eric-diputado/precache-manifest.e2530db067286b36437101e981cc1c5a.js",
+    "service-worker.js": "/eric-diputado/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/eric-diputado/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/eric-diputado/static/media/logo.5d5d9eef.svg"
+  }
+}
