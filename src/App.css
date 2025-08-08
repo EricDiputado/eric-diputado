@@ -1,0 +1,25 @@
+/* Animation keyframes for the fade-in effect */
+@keyframes fadeInMoveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the animation to specific elements */
+.animate-fade-in-up {
+  animation: fadeInMoveUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-fade-in-up.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-fade-in-up.delay-400 {
+  animation-delay: 0.4s;
+}
