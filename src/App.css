@@ -23,3 +23,7 @@
 .animate-fade-in-up.delay-400 {
   animation-delay: 0.4s;
 }
+
+.clickable {
+  cursor: pointer;
+}
