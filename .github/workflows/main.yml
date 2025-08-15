@@ -1,31 +1,45 @@
-name: Deploy to GitHub Pages
+# Workflow to deploy a React app built with Vite to GitHub Pages
 
+name: Deploy React App
+
+# This workflow is triggered on every push to the main branch
 on:
   push:
     branches:
-      - main  # Set this to the branch you want to deploy from
+      - main
 
+# Defines a single job for building and deploying the application
 jobs:
   build-and-deploy:
+    # Runs the job on the latest version of Ubuntu
     runs-on: ubuntu-latest
 
+    # A sequence of steps to be executed
     steps:
-      - name: Checkout 
+      # Step 1: Checks out the repository code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Step 2: Sets up Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # Use the Node.js version you need
+          node-version: '18' # Use a Node.js version compatible with your project
 
+      # Step 3: Installs project dependencies
       - name: Install dependencies
         run: npm install
 
+      # Step 4: Builds the project for production
       - name: Build project
         run: npm run build
 
+      # Step 5: Deploys the built files to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
+          # This token is automatically provided by GitHub for authentication
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # This should match your build output directory
+          # The directory containing the static files to be published
+          # Vite's default build output is the 'dist' folder
+          publish_dir: ./dist
