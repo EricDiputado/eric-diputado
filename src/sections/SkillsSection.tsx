@@ -3,7 +3,7 @@ export default ({ personalData }: { personalData: any }) => (
     <section id="skills" className="py-20 md:py-32 bg-emerald-900">
         <div className="container mx-auto px-4 md:px-8 max-w-4xl">
             <h2 className="text-3xl md:text-4xl font-bold text-amber-400 mb-12 text-center">
-                My Skills
+                My Skills 
             </h2>
             {personalData.categorizedSkills.map(({ categoryName, skills }: { categoryName: string, skills: Array<any> }) => (
                 <div className="mt-16">
