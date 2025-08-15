@@ -42,6 +42,13 @@ jobs:
       - name: Build project
         run: npm run build
 
+        # Step 4: Uploads the built files as a 'github-pages' artifact
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # This should match your Vite build output directory
+          path: ./dist
+
   # Deployment job
   deploy:
     environment:
