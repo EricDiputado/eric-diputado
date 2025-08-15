@@ -1,6 +1,6 @@
 
 
-export default ({ activeSection, setActiveSection }: { activeSection: string, setActiveSection: any }) => (
+export default ({ setActiveSection }: { activeSection: string, setActiveSection: any }) => (
     <section
         id="home"
         className="relative h-screen flex flex-col justify-center items-center text-center p-4 md:p-8"
